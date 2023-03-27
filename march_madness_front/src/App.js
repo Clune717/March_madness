@@ -67,7 +67,7 @@ const App = () => {
         <div class="container">
           <Team teams={team}/>
           <div class="edit"><Edit teams={team} handleEdit={handleEdit} /></div>
-          <button class="delete" onClick={()=>{handleDelete(team)}}>X</button>
+          <button class="delete" onClick={()=>{handleDelete(team)}}>DELETE</button>
         </div>
       )
     })}
