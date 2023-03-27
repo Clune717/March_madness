@@ -1,6 +1,17 @@
+body {
+  background-color: rgb(198, 156, 108);
+}
+
 .title {
   text-align: center;
   font-size: 50px;
+}
+
+.teams {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .add {
@@ -28,5 +39,17 @@
 
 .image {
   width: 60em;
-  align-items: center;
+  text-align: center;
+}
+
+.edit {
+  font-size: 20px;
+  margin: 3em;
+}
+
+.delete {
+  font-size: 15px;
+  width: 10em;
+  height: 4em;
+  background-color: rgba(255, 0, 0, 0.628);
 }
