@@ -1,8 +1,8 @@
 import {useEffect, useState} from 'react'
 import axios from 'axios'
-import Team from './components/Teams'
-import Add from './components/Add'
-import Edit from './components/Edit'
+import Team from './component/Teams'
+import Add from './component/Add'
+import Edit from './component/Edit'
 
 const App = () => {
 
@@ -64,8 +64,8 @@ const App = () => {
     {teams.map((team) => {
       return (
         <div>
-          <Team team={team}/>
-          <Edit team={team} handleEdit={handleEdit} />
+          <Team teams={team}/>
+          <Edit teams={team} handleEdit={handleEdit} />
           <button onClick={()=>{handleDelete(team)}}>X</button>
         </div>
       )
