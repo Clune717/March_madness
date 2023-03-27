@@ -1,3 +1,4 @@
+import './App.css';
 import {useEffect, useState} from 'react'
 import axios from 'axios'
 import Team from './component/Teams'
@@ -57,13 +58,13 @@ const App = () => {
 
   return (
   <>
-    <h1>March Madness Teams</h1>
+    <h1 class="title">March Madness Teams</h1>
 
-    <Add handleCreate={handleCreate}/>
+    <div class="add"><Add handleCreate={handleCreate}/></div>
 
     {teams.map((team) => {
       return (
-        <div>
+        <div class="container">
           <Team teams={team}/>
           <Edit teams={team} handleEdit={handleEdit} />
           <button onClick={()=>{handleDelete(team)}}>X</button>
