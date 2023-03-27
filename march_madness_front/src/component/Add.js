@@ -28,7 +28,7 @@ const Add = (props) => {
   <label htmlFor='logo'>Logo:</label>
   <input type='text' name='logo' onChange={handleChange}/>
   <br/>
-  <label htmlFor='Rank'>Rank:</label>
+  <label htmlFor='Rank'>Seed:</label>
   <input type='text' name='rank' onChange={handleChange}/>
   <input type="submit"/>
 </form>

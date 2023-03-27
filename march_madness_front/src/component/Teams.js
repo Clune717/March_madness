@@ -4,7 +4,7 @@ const Team = (props) => {
        <h3>Name: {props.teams.name}</h3>
        <p>Conference: {props.teams.conference}</p>
        <img src={props.teams.logo}></img>
-       <p>Rank: {props.teams.rank}</p>
+       <p>Seed: {props.teams.rank}</p>
      </>
     )
  }
