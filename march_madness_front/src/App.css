@@ -1,0 +1,66 @@
+body {
+  background-color: rgb(198, 156, 108);
+}
+
+.title {
+  text-align: center;
+  font-size: 50px;
+  position: relative;
+  top:  -10px;
+  left: 20px;
+}
+
+.teams {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.add {
+  margin: 3em;
+  border: 2px solid red;
+  
+}
+
+.name {
+  text-align: center;
+  font-size: 40px;
+  position: relative;
+  top:  -10px;
+  left: 20px;
+}
+
+.container {
+  margin: 4em;
+  background-color: antiquewhite;
+  padding: 2em;
+  border: 1px solid red;
+  border-radius: 20px;
+}
+
+.conference {
+  font-size: 20px;
+  color: brown;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: underline;
+  margin: -1.5em 0 2em 0;
+}
+
+.image {
+  width: 20em;
+  text-align: center;
+}
+
+.edit {
+  font-size: 20px;
+  margin: 3em;
+}
+
+.delete {
+  font-size: 15px;
+  width: 5em;
+  height: 2em;
+  border-radius: 30px;
+}
